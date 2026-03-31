@@ -1,0 +1,35 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+*.log
+.DS_Store
+.env
+.env.local
+
+# Test files
+tests/
+**/*.test.js
+**/*.test.ts
+
+# Development tools
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Node modules
+node_modules/
+
+# Build artifacts that we don't want to publish
+.nyc_output/
+coverage/
+
+# Development scripts
+install.sh
+examples/
+
+# Only include built files and documentation 
